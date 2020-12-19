@@ -13,6 +13,8 @@ public class LoginServlet extends HttpServlet {
        
     public LoginServlet() {
         super();
+	    
+	    //some changes here...
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
